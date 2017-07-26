@@ -1,0 +1,7 @@
+<h1> HELLO </h1>
+{% if meh %}
+<li> <a href="{% url 'front:index' meh %}">{{ meh }} </a></li>
+{% else %}
+<p> No site. </p>
+{% endif %}
+
